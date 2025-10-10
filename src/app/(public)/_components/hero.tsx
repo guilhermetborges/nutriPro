@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import nutri from "../../../../public/nutri.jpg"
 
 export function Hero(){
     return (
@@ -24,7 +23,7 @@ export function Hero(){
                     
                     <div className="hidden lg:block">
                         <Image
-                        src={nutri}
+                        src="/nutri.jpg"
                         alt="hero"
                         width={500}
                         height={500}
